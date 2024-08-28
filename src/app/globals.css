@@ -2,32 +2,136 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x:hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    font-family: "Roboto slab", sans serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x:hidden ;
+}
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap') format('woff2'),
+         url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.bebas-neue-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+:root {
+     --font-roboto: "Roboto", sans-serif;
+    --white-color: #fff;
+    --black-color: #000;
+    --black-color2: #1d1d1d;
+    --gray-color: #f7f7fd;
+    --paragraph-color: #272727;
+    --theme-color: #2991ec;
+    --body-color: #eaf1f5;
+    --border-color: #232323;
+    --black-soft-color: #7e7e7e;
+    --brand-color: #9C0000;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.tt-style-switch {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--theme-color);
+    font-size: 20px;
+    color: var(--white-color);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+body.bg-dark-5 {
+    background: #121212;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto slab", sans serif;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: "Roboto", sans serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a,
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0;
+    color: #272727;
+    line-height: 1.8;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.custom-button-main {
+    font-size: 20px;
+    padding: 10px 30px;
+    background: #960000 ;
+    color: #fff !important;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family:var(--font-roboto);
+}
+
