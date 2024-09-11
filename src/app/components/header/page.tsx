@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
   const toggleMenu = () => setIsOpen(prev => !prev);
 
   return (
-    <nav className="bg-white-800 font-roboto shadow-md">
+    <nav className="bg-white-800 font-roboto shadow-md relative z-50 ">
       <div className="container mx-auto p-4 flex justify-between items-center">
         <Link href="/" aria-label="Home">
           <Image

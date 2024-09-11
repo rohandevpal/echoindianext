@@ -11,8 +11,6 @@ const mobileBanners = [
     "/images/slider4-res.png",
 ];
 
-
-
 export default {
     desktopBanners,
     mobileBanners
