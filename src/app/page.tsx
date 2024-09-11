@@ -12,13 +12,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       {/* <Component {...pageProps} /> */}
       <Slidermain />
       <SeperatorHeading title={SeperatorTitle[0].title} />
-      <SeperatorHeading title={SeperatorTitle[1].title} />
-      <SeperatorHeading title={SeperatorTitle[2].title} />
-      <SeperatorHeading title={SeperatorTitle[3].title} />
-      <SeperatorHeading title={SeperatorTitle[4].title} />
-      <SeperatorHeading title={SeperatorTitle[5].title} />
-      <SeperatorHeading title={SeperatorTitle[6].title} />
-      <SeperatorHeading title={SeperatorTitle[7].title} />
     </>
   );
 }
