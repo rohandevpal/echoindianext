@@ -16,6 +16,23 @@ const config: Config = {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
       },
+      fontSize: {
+        "2xsm": "10px",
+        xsm: "12px",
+        sm: ["14px", { lineHeight: "20px" }],
+        base: ["16px", { lineHeight: "24px" }],
+        lg: ["18px", { lineHeight: "28px" }],
+        xl: ["20px", { lineHeight: "32px" }],
+        "2xl": "22px",
+        "3xl": "25px",
+        "4xl": "32px",
+        "5xl": "40px",
+        "6xl": "48px",
+        "7xl": "70px",
+      },
+      colors: {
+        'heading-color': '#6e141e',
+      },
     },
   },
   plugins: [],

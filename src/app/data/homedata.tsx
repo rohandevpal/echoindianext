@@ -11,7 +11,24 @@ const mobileBanners = [
     "/images/slider4-res.png",
 ];
 
+
+//headings data 
+const headingsections = [
+
+    { title: "Key Focus Area" },
+    { title: "Our Reach" },
+    { title: "Supporting SDG's" },
+    { title: "Serving the understand" },
+    { title: "Insights and stories" },
+    { title: "Engagement With Changemaker" },
+    { title: "Key Implementing Partners" },
+    { title: "Funding Partner" },
+
+];
+
 export default {
     desktopBanners,
-    mobileBanners
+    mobileBanners,
+    headingsections
 }
+
