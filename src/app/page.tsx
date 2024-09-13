@@ -1,6 +1,6 @@
 import './globals.css';
 import type { AppProps } from 'next/app';
-import { Navbar, SeperatorHeading, Slidermain } from './components';
+import { Navbar, SeperatorHeading, Slidermain,Cards } from './components';
 import homedata from './data/homedata';
 
 
@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Navbar />
       {/* <Component {...pageProps} /> */}
       <Slidermain />
-      <SeperatorHeading title={SeperatorTitle[0].title} />
+      <Cards animation={undefined} />
     </>
   );
 }

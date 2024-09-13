@@ -374,3 +374,21 @@ ul.main-slider li {
     font-size: 80px;
   }
 }
+
+
+
+
+/*card component custom css*/
+.seperator-heading::before,
+.seperator-heading::after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 0.5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+}
+
+.seperator-heading::after {
+  margin: 0 -55% 0 0.5em;
+}
