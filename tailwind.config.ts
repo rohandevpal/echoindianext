@@ -32,6 +32,7 @@ const config: Config = {
       },
       colors: {
         'heading-color': '#6e141e',
+        'bg-color' : '#f8fafc'
       },
     },
   },

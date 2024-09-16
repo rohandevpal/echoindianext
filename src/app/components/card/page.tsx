@@ -7,13 +7,11 @@ import { SeperatorHeading } from '..';
 
 const Cards = (props: { animation: any; }) => {
     //get cards Data
-    const cardData = homedata.cardData.homecards;
-    
-    
+    const cardData = homedata.cardData.homecards;    
     const SeperatorTitle = homedata.headingsections
     
     return (
-        <section className="key-focus-area" >
+        <section className="key-focus-area bg-" >
             <SeperatorHeading title={SeperatorTitle[0].title} />
             <div className="container mx-auto p-4">
                 <div className="row flex flex-wrap justify-center">
