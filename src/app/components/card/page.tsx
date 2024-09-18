@@ -24,10 +24,10 @@ const Cards = (props: { animation: any; }) => {
                                             <img src={el.imageUrl} alt={el.heading} className="w-full" />
                                         </li>
                                         <li>
-                                            <h3 className="text-2xl font-bold">{el.heading}</h3>
+                                            <h3 className="text-2xl font-bold px-0">{el.heading}</h3>
                                         </li>
                                         <li>
-                                            <p className="text-lg">{el.paragraph}</p>
+                                            <p className="text-lg px-0 py-3 h-52">{el.paragraph}</p>
                                         </li>
                                         <li>
                                             <a href={el.buttonLink} className="custom-button-main">{el.buttontxt}</a>

@@ -14,7 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        roboto: ['Roboto', 'sans-serif'],
+        roboto: ['"Roboto Slab"', 'serif']
       },
       fontSize: {
         "2xsm": "10px",
@@ -34,6 +34,7 @@ const config: Config = {
         'heading-color': '#6e141e',
         'bg-color' : '#f8fafc'
       },
+      
     },
   },
   plugins: [],
